@@ -6,7 +6,7 @@ export default function SummaryCards({
   if (!insights || !goals || !risk) {
     return (
       <div className="mt-10 text-center text-slate-400">
-        Loading dashboard...
+        Loading Dashboard...
       </div>
     );
   }
